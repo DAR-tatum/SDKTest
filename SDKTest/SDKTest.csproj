@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="DARReferenceData">
+        <HintPath>..\..\Documents\GitHub\reference-data-sdk\DARReferenceData\bin\Debug\net6.0\DARReferenceData.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1" />
+      <PackageReference Include="Google.Cloud.BigQuery.V2" Version="3.9.0" />
+    </ItemGroup>
+
+</Project>
